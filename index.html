@@ -1,45 +1,86 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
     <title>Марафон 3.0</title>
-</head>
-<body>
-    <header>
+  </head>
+  <body>
+    <div class="page__conteiner">
+      <header class="header">
         <div class="heder__logo">
-            <a href="" class="header__logo_link">SCANDI</a>
+          <a href="" class="header__logo_link"
+            ><img
+              src="/img/Scandi_logo.png"
+              width="25"
+              height="25"
+              alt="Логотип SCANDI"
+            />
+            SCANDI</a
+          >
         </div>
         <nav class="header__menu">
-            <ul>
-                <li class="header__menu_items">
-                    <a href="#company" class="header__menu_item">О компании</a>
-                </li>
-                <li class="header__menu_items">
-                    <a href="#works" class="header__menu_item">Портфолио</a>
-                </li>
-                <li class="header__menu_items">
-                    <a href="#about" class="header__menu_item">Команда</a>
-                </li>
-                <li class="header__menu_items">
-                    <a href="#process" class="header__menu_item">Как мы работаем</a>
-                </li>
-                <li class="header__menu_items">
-                    <a href="#reviews" class="header__menu_item">Отзывы клиентов</a>
-                </li>
-                <li class="header__menu_items">
-                    <a href="#application" class="header__menu_item">Оставить заявку</a>
-                </li>
-                <li class="header__menu_items">
-                    <a href="tel:+79818574624" class="header__menu_item">+7 (981) 857-46-24</a>
-                </li>
-            </ul>
+          <ul class="header__menu_items">
+            <li class="header__menu_item">
+              <a href="#company" class="header__menu_item-link">О компании</a>
+            </li>
+            <li class="header__menu_item">
+              <a href="#works" class="header__menu_item-link">Портфолио</a>
+            </li>
+            <li class="header__menu_item">
+              <a href="#about" class="header__menu_item-link">Команда</a>
+            </li>
+            <li class="header__menu_item">
+              <a href="#process" class="header__menu_item-link"
+                >Как мы работаем</a
+              >
+            </li>
+            <li class="header__menu_item">
+              <a href="#reviews" class="header__menu_item-link"
+                >Отзывы клиентов</a
+              >
+            </li>
+            <li class="header__menu_item">
+              <a href="" class="header__menu_item-link">Оставить заявку</a>
+            </li>
+            <li class="header__menu_item">
+              <a href="tel:+79818574624" class="header__menu_item-link"
+                >+7 (981) 857-46-24</a
+              >
+            </li>
+          </ul>
         </nav>
-
-    </header>
-</body>
+      </header>
+      <main>
+        <section class="promo">
+          <div class="promo__info">
+            <h1 class="promo__title">Поможем сделать вашу квартиру уютнее</h1>
+            <p class="promo__text">
+              Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим
+              магазины и помогаем организовать доставку
+            </p>
+            <a href="#application" class="promo__link">Оставить заявку</a>
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <div class="container">
+          <p class="contacts">
+            <a href="tel:+79818574624">+7 (981) 857-46-24</a>
+          </p>
+          <p class="direction">
+            г. Санкт-петербург, ул. Большая Конюшенная, 19
+          </p>
+          <p class="copyright">ИП Королёва А.А.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
