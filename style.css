@@ -89,33 +89,33 @@ body {
   font-size: 20px;
   line-height: 24px;
 }
-.about {
+.company {
   padding-top: 65px;
 }
-.about__title {
+.company__title {
   text-align: center;
   font-size: 40px;
   line-height: 50px;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
-.about__conteiner {
+.company__conteiner {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.about__text-coneiner {
+.company__text-coneiner {
   width: 528px;
 }
-.about__footer {
+.company__footer {
   width: 100%;
   background-color: #8d7370;
 }
-.about__list {
+.company__list {
   display: flex;
   justify-content: space-between;
 }
-.about__item {
+.company__item {
   text-align: center;
   font-size: 30px;
   line-height: 36.57px;
@@ -125,12 +125,13 @@ body {
   padding-bottom: 81px;
   list-style: none;
 }
-.about-number {
+.company-number {
   font-size: 50px;
   line-height: 62px;
 }
 .works {
   padding-top: 65px;
+  padding-bottom: 65px;
   width: 1200px;
   margin: auto;
 }
@@ -163,6 +164,32 @@ body {
   position: absolute;
   display: none;
 }
+.team {
+  background-color: #e2c4ba;
+  padding-bottom: 35px;
+}
+.team__title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.team__list {
+  display: flex;
+  justify-content: space-between;
+}
+.team__list-item {
+  list-style: none;
+  width: 320px;
+}
+.team__item-text {
+  padding-top: 10px;
+  font-size: ;
+}
+.page-footer {
+  width: 1200px;
 }
 .container {
   display: flex;
