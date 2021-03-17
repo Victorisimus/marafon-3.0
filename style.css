@@ -24,6 +24,10 @@ body {
   margin: auto;
   background-color: #e5e5e5;
 }
+.conteiner {
+  width: 1036px;
+  margin: auto;
+}
 
 .header {
   width: 1201px;
@@ -66,10 +70,7 @@ body {
 .promo__info {
   width: 535px;
 }
-.conteiner {
-  width: 1036px;
-  margin: auto;
-}
+
 .promo__title {
   font-size: 50px;
   line-height: 62px;
@@ -223,6 +224,40 @@ body {
   background-color: #8d7370;
   color: #ffffff;
   margin-bottom: 20px;
+}
+.reviews__title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding-top: 65px;
+  padding-bottom: 40px;
+}
+.reviews__conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.reviews__text {
+  width: 407px;
+}
+.reviews__img {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.reviews__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  background-color: #cc8b86;
+  border-radius: 50%;
+}
+.reviews__text-title {
+  padding-top: 19px;
+  text-transform: uppercase;
 }
 .footer-container {
   display: flex;
