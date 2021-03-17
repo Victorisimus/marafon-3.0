@@ -17,7 +17,6 @@ body {
   font-size: 18px;
   line-height: 30px;
   color: #533738;
-  list-style: none;
 }
 
 .page__conteiner {
@@ -51,6 +50,7 @@ body {
 }
 .header__menu_item {
   margin-right: 26px;
+  list-style: none;
 }
 .header__menu_item:nth-child(7) {
   margin-right: 0;
@@ -97,6 +97,7 @@ body {
   font-size: 40px;
   line-height: 50px;
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 .about__conteiner {
   display: flex;
@@ -119,8 +120,49 @@ body {
   font-size: 30px;
   line-height: 36.57px;
   color: #ffffff;
+  text-transform: uppercase;
   padding-top: 85px;
   padding-bottom: 81px;
+  list-style: none;
+}
+.about-number {
+  font-size: 50px;
+  line-height: 62px;
+}
+.works {
+  padding-top: 65px;
+  width: 1200px;
+  margin: auto;
+}
+
+.works__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+.works-conteiner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.works-conteiner img {
+  margin-top: 30px;
+}
+.link__galiry {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+  line-height: 36.57px;
+}
+.room {
+  position: relative;
+}
+.room-hover {
+  position: absolute;
+  display: none;
+}
 }
 .container {
   display: flex;
