@@ -1,6 +1,144 @@
-*{
-    background-color: aqua;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
+
+a:link,
+a:visited,
+a {
+  text-decoration: none;
+  color: #533738;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+  list-style: none;
+}
+
+.page__conteiner {
+  width: 1400px;
+  margin: auto;
+  background-color: #e5e5e5;
+}
+
+.header {
+  width: 1201px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 38px;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.heder__logo {
+  margin-right: 89px;
+}
+.header__logo_link img {
+  position: relative;
+  top: 8px;
+}
+.header__menu_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header__menu_item {
+  margin-right: 26px;
+}
+.header__menu_item:nth-child(7) {
+  margin-right: 0;
+  margin-left: 0;
+}
+.promo {
+  padding-top: 152px;
+  padding-bottom: 20px;
+  height: 543px;
+  margin-top: -97px;
+  background-image: url(/img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.jpg);
+}
+.promo__info {
+  width: 535px;
+}
+.conteiner {
+  width: 1036px;
+  margin: auto;
+}
+.promo__title {
+  font-size: 50px;
+  line-height: 62px;
+  padding-bottom: 24px;
+}
+.promo__text {
+  padding-bottom: 21px;
+}
+.promo__link {
+  display: inline-block;
+  padding-top: 25px;
+  padding-right: 68px;
+  padding-bottom: 25px;
+  padding-left: 68px;
+  background-color: #cc8b86;
+  color: #533738;
+  font-size: 20px;
+  line-height: 24px;
+}
+.about {
+  padding-top: 65px;
+}
+.about__title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 40px;
+}
+.about__conteiner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.about__text-coneiner {
+  width: 528px;
+}
+.about__footer {
+  width: 100%;
+  background-color: #8d7370;
+}
+.about__list {
+  display: flex;
+  justify-content: space-between;
+}
+.about__item {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: #ffffff;
+  padding-top: 85px;
+  padding-bottom: 81px;
+}
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+.contacts {
+  width: 161px;
+  margin-right: 42px;
+}
+
+.direction {
+  width: 455px;
+}
+
+.copyright {
+  width: 165px;
+  margin-left: auto;
 }
