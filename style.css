@@ -60,6 +60,11 @@ body {
   margin-right: 0;
   margin-left: 0;
 }
+.header__menu_item:hover > a {
+  color: #cc8b86;
+  font-weight: bold;
+  text-decoration: underline;
+}
 .promo {
   padding-top: 152px;
   padding-bottom: 20px;
@@ -89,6 +94,10 @@ body {
   color: #533738;
   font-size: 20px;
   line-height: 24px;
+}
+.promo__link:hover {
+  color: #ffffff;
+  background-color: darkblue;
 }
 .company {
   padding-top: 65px;
@@ -308,6 +317,7 @@ input[type="tel"] {
   border-bottom: 1px solid #ffffff;
   background-color: #8d7370;
   margin-bottom: 35px;
+  outline: none;
 }
 input[type="text"]::placeholder,
 input[type="tel"]::placeholder {
@@ -315,6 +325,10 @@ input[type="tel"]::placeholder {
 }
 .application__map {
   margin-right: 100px;
+}
+.application__form-btn:hover {
+  color: #ffffff;
+  background-color: darkblue;
 }
 .footer-container {
   display: flex;
