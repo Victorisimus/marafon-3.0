@@ -262,6 +262,9 @@ body {
   padding-top: 19px;
   text-transform: uppercase;
 }
+.reviews__btn:hover {
+  background-color: darkblue;
+}
 .application {
   background-color: #8d7370;
 }
