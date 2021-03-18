@@ -198,6 +198,10 @@ body {
   padding-top: 10px;
   font-size: ;
 }
+.team__list-item-img:hover {
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
 .process {
   background-color: #e2c4ba;
   padding-left: 99px;
@@ -233,6 +237,9 @@ body {
   background-color: #8d7370;
   color: #ffffff;
   margin-bottom: 20px;
+}
+.process__item-title:hover {
+  background-color: darkblue;
 }
 .reviews {
   padding-bottom: 65px;
