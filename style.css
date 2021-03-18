@@ -283,6 +283,7 @@ body {
 }
 .application {
   background-color: #8d7370;
+  height: 624px;
 }
 .application__conteiner {
   display: flex;
